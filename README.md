@@ -1,6 +1,6 @@
 # Competition-AICUP2022-CropStatusMonitoringByImageRecognition
 
-競賽網站：https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb
+[競賽網站](https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb)
 
 ---
 
