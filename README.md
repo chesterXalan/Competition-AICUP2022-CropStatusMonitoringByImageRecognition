@@ -10,12 +10,12 @@
 2. 需額外安裝的套件及函式庫：
     - CUDA 11.7： https://developer.nvidia.com/cuda-11-7-0-download-archive
     - PyTorch 1.13： https://pytorch.org/get-started/locally/
-    - 使用pip安裝：numpy, tqdm, pillow, scikit-learn, tensorboard, pandas
+    - 使用pip安裝： numpy, tqdm, pillow, scikit-learn, tensorboard, pandas
 
 3. 資料前處理方法：
     1. 先將影像資料放至 `dataset\jpg\{training, test_public, test_private}`
     2. 使用 `crop_images_training.ipynb` 與 `crop_images_test.ipynb` 將影像進行裁切並輸出，檔案會存在後綴為 cropped 的資料夾
-    3. 在 `dataset\training.json` 已有切分成 train/valid 的資料，可直接執行 make_npz_training.ipynb 來製作 training_cropped_480x480.npz，
+    3. 在 `dataset\training.json` 已有切分成 train/valid 的資料，可直接執行 `make_npz_training.ipynb` 來製作 training_cropped_480x480.npz，
        如有需要也能執行 `split_train_valid.ipynb` 來重新切分資料
     4. 執行 `make_npz_test.ipynb` 來製作 test_public_cropped_480x480.npz 與 test_private_cropped_480x480.npz
 
